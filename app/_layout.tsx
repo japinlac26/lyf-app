@@ -5,8 +5,12 @@ import { useEffect } from 'react';
 import 'react-native-reanimated';
 
 import { seedHabits } from '@/src/db/seed';
+import { setupNotificationHandler } from '@/src/lib/notifications';
 import { useCharacterStore } from '@/src/store/characterStore';
 import { useHabitsStore } from '@/src/store/habitsStore';
+
+// Register notification handler before any component mounts
+setupNotificationHandler();
 
 export const unstable_settings = {
   anchor: '(tabs)',
