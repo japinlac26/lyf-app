@@ -1,2 +1,3 @@
 // Zustand stores
-export {};
+export { useCharacterStore } from './characterStore';
+export { useHabitsStore } from './habitsStore';
