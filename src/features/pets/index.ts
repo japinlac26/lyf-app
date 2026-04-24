@@ -1,0 +1,2 @@
+// Pet state, evolution
+export {};

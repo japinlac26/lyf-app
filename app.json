@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "lyf-init",
-    "slug": "lyf-init",
+    "name": "Lyf",
+    "slug": "lyf-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "lyfinit",
+    "scheme": "lyf",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -38,8 +38,15 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-sqlite",
+      "expo-audio",
+      "expo-secure-store"
     ],
+    "extra": {
+      "sentryDsn": "",
+      "posthogApiKey": ""
+    },
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
